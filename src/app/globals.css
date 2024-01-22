@@ -2,32 +2,78 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.bg_01{
+  background-image: url(../../public/img/background/background01.webp);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.bg_pattern{
+  background-image: url(../../public/pattern.svg);
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.bg_pattern2{
+  background-image: url(../../public/pattern.svg);
+  background-repeat: repeat; 
+  background-size: 50px; 
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+
+@font-face {
+  font-family: 'Sun More';
+  src: url('../../public/fonts/sunmore.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Hoarse Solid';
+  src: url('../../public/fonts/hoarsesolid.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Rock Grotesk';
+  src: url('../../public/fonts/rockgrotesk.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Haydon Brush';
+  src: url('../../public/fonts/haydonbrush.ttf') format('truetype');
+}
+
+.SunMore{
+  font-family: 'Sun More',sans-serif;
+}
+.HoarseSolid{
+  font-family: 'Hoarse Solid',sans-serif;
+}
+.RockGrotesk{
+  font-family: 'Rock Grotesk',sans-serif;
+}
+.HaydonBrush{
+  font-family: 'Haydon Brush',sans-serif;
+}
+
+
+.underline-hover {
+  position: relative;
+  display: inline-block;
+}
+
+.underline-hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px; 
+  background-color: rgb(194 65 12); 
+  transform-origin: 50% 100%;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.underline-hover:hover::after {
+  transform: scaleX(1);
+}
+
+
+.backImgMenu{
+  background-image: url('../../public/img/menu/section01img01.webp');
 }
