@@ -73,35 +73,3 @@ export default function Header() {
       
    )
 }
-
-/*
-<div className="w-[calc(100%-60px)] h-20 flex justify-start items-center bg-red-300" >
-                  <Image
-                     className="ml-4"
-                     src={imgLogo}
-                     width={172}
-                     height={50}
-                     alt="chivo boston"
-                  />
-               </div>
-               <div className="w-[60px] h-20  flex justify-center items-center">
-                  <BiMenu onClick={chageMenu} className={`${isOpen ? 'hidden' : ''} text-3xl text-orange-700 cursor-pointer `} />
-                  <BiX onClick={chageMenu} className={`${isOpen ? '' : 'hidden'}  text-4xl text-orange-700 cursor-pointer `} />
-               </div>
-               <motion.nav
-               animate={isOpen ? "open" : "closed"}
-               variants={variants}
-               className={`w-full h-[calc(100vh-80px)] bg-amber-50 absolute top-20   `}>
-                  <div className="w-full h-full flex justify-center items-center">
-                     <div className="flex flex-col pb-10 text-center text-orange-700 SunMore text-3xl">
-                        <Link className="mt-6 mb-6" onClick={chageMenu} href="/" >HOME     </Link>
-                        <Link className="mt-6 mb-6" onClick={chageMenu} href="/about" >ABOUT    </Link>
-                        <Link className="mt-6 mb-6" onClick={chageMenu} href="/menu" >MENU     </Link>
-                        <Link className="mt-6 mb-6" onClick={chageMenu} href="/order" >ORDER    </Link>
-                        <Link className="mt-6 mb-6" onClick={chageMenu} href="/contact" >CONTACT  </Link>
-                     </div>
-                  </div>   
-               </motion.nav>
-
-
-*/
