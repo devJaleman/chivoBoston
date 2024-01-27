@@ -54,7 +54,7 @@ export default function Section02() {
 
 
                   <div className="w-full my-8 max-w-[300px] flex flex-col justify-center md:justify-between items-center">
-                     <div className="w-[280px] SunMore text-center text-orange-700 text-3xl">Chivo’s Breakfast</div>
+                     <div className="w-[280px] SunMore text-center text-orange-700 text-3xl">Chivo's Breakfast</div>
                      <div className="w-full min-h-[160px] text-slate-900  flex justify-center items-start text-center text-lg">
                         Salvadorian Style fried Eggs
                         served with fried beans,

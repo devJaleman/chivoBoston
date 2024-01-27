@@ -94,7 +94,7 @@ export default function Section08() {
                         Cheese & loroco
                      </div>
                      <div className="w-full md:h-[60px]  text-slate-800  flex justify-center items-start text-center text-lg">
-                        Loroco is El Salvador’s Organic
+                        Loroco is El Salvador's Organic
                         Edible Flower
                      </div>
                      <div className="w-full flex justify-center items-center text-center text-3xl  text-slate-800 HoarseSolid">

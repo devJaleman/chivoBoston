@@ -61,7 +61,7 @@ export default function Section03() {
 
 
                   <div className="w-full my-8 max-w-[300px] flex flex-col justify-center md:justify-between items-start">
-                     <div className="w-[280px] SunMore text-center text-orange-700 text-3xl">Chivo’s Breakfast</div>
+                     <div className="w-[280px] SunMore text-center text-orange-700 text-3xl">Chivo's Breakfast</div>
                      <div className="w-full md:h-[40px]   text-slate-800  flex justify-center items-start text-center text-lg">
                         Tortilla: Flour, Spinach or Wheat
                      </div>
