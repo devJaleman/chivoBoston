@@ -7,7 +7,7 @@ import BtnInt from '../../buttons/BtnInt.js';
 export default function Section04() {
 
    let title = "ABOUT CHIVO"; 
-   let subTitle = "Chivo taqueria is an authentic Mexican Restaurant serving up Boston&apos;s best tacos,   burritos, pupusas, bowls and quesadillas.";
+   let subTitle = "Chivo taqueria is an authentic Mexican Restaurant serving up Boston's best tacos,   burritos, pupusas, bowls and quesadillas.";
    let textBtn = "VIEW ALL";
 
   	return (

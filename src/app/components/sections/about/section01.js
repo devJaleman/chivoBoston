@@ -8,11 +8,9 @@ export default function Section01() {
 
 			<div className="w-full max-w-[500px] flex justify-center items-center">
 				<Image  
-					width={500}
-					height={500}
-					loading="lazy"
+					className="w-full"
 					src={img01}
-					alt="Picture of the author"
+					alt=""
 				/>
 			</div>
 

@@ -1,5 +1,6 @@
 
 import Image from 'next/image'
+import Link from 'next/link'
 import imgLogo          from "../../../../public/img/company/logoChivoWhite.webp"
 import imgFacebook      from "../../../../public/img/social/facebook.webp"
 import imgInstagram     from "../../../../public/img/social/instagram.webp"
@@ -25,12 +26,12 @@ export default function Footer() {
                <div className="w-full sm:w-[200px] sm:min-w-[200px] md:w-[260px] md:min-w-[260px]  flex justify-center items-center h-32">
                   <div className="w-[360px] md:w-[260px] md:min-w-[260px] flex flex-row RockGrotesk text-xl ">
                      <div className="w-1/2 flex flex-col items-center" >
-                        <div className="mt-2 mb-2">About</div>
-                        <div className="mt-2 mb-2">Order</div>
+                        <Link href="/about" className="mt-2 mb-2">About</Link>
+                        <Link href="/order" className="mt-2 mb-2">Order</Link>
                      </div>
                      <div className="w-1/2 flex flex-col items-center" >
-                        <div className="mt-2 mb-2">Menu</div>
-                        <div className="mt-2 mb-2">Contact</div>
+                        <Link href="/menu" className="mt-2 mb-2">Menu</Link>
+                        <Link href="/contact" className="mt-2 mb-2">Contact</Link>
                      </div>
                   </div>
                </div>
