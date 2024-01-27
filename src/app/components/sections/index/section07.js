@@ -10,47 +10,49 @@ export default function Section07() {
 
 
   	return (
-    	<div className="w-full  bg-amber-50  flex flex-col md:flex-row  justify-center items-center py-10  ">
+    	<div className="w-full  bg-amber-50  flex   justify-center items-center py-10  ">
 
+			<div className="grid grid-cols-1  sm:grid-cols-2  xl:grid-cols-4 gap-5">
 
-
-
-         <div className=" w-full flex flex-col xl:flex-row justify-center items-center xl:mr-3">
-            <div className="w-[300px] h-[300px] my-5 drop-shadow-lg">
+				<div className="w-[300px] h-[300px]  drop-shadow-lg">
                <Image  
 						className="w-full"
 						src={img01}
 						alt=""
 					/>
             </div>
-            <div className="w-[300px] h-[300px] my-5 drop-shadow-lg  xl:ml-5 2xl:ml-10">
+
+				<div className="w-[300px] h-[300px]  drop-shadow-lg">
                <Image  
 						className="w-full"
 						src={img02}
 						alt=""
 					/>
-            </div> 
-         </div>
+            </div>
 
-
-
-         <div className=" w-full flex flex-col xl:flex-row justify-center items-center xl:ml-3">
-            <div className="w-[300px] h-[300px] my-5 drop-shadow-lg">
+				<div className="w-[300px] h-[300px]  drop-shadow-lg">
                <Image  
 						className="w-full"
 						src={img03}
 						alt=""
 					/>
             </div>
-            <div className="w-[300px] h-[300px] my-5 drop-shadow-lg  xl:ml-5 2xl:ml-10">
+
+
+				<div className="w-[300px] h-[300px]  drop-shadow-lg">
                <Image  
 						className="w-full"
 						src={img04}
 						alt=""
 					/>
-            </div> 
-         </div>
+            </div>
 
+			</div>
+
+
+
+
+      
          
 
          
