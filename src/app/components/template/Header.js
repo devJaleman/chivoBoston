@@ -18,7 +18,6 @@ export default function Header() {
       <>
          <div className="w-full fixed z-50 top-0 left-0   bg-amber-50">
             <div className="md:hidden w-full h-20 flex flex-row justify-between relative">
-
                <div className="w-[220px] h-full flex justify-center items-center">
                   <div className="w-[180px]">
                      <Image
@@ -28,12 +27,10 @@ export default function Header() {
                      />
                   </div>
                </div>
-
                <div className="w-[60px] h-full  flex justify-center items-center">
                   <BiMenu onClick={chageMenu} className={`${isOpen ? 'hidden' : ''} text-3xl text-orange-700 cursor-pointer `} />
                   <BiX onClick={chageMenu} className={`${isOpen ? '' : 'hidden'}  text-4xl text-orange-700 cursor-pointer `} />
                </div>
-
                <motion.nav
                   animate={isOpen ? "open" : "closed"}
                   variants={variants}
@@ -48,21 +45,20 @@ export default function Header() {
                      </div>
                   </div>   
                </motion.nav>
-               
             </div>
             <div className="hidden md:flex flex-row w-full h-[100px] justify-center items-center ">
                <div className='flex flex-row h-[100px] w-full lg:w-[1000px] xl:w-[1200px] items-center justify-between px-10 xl:px-0 text-orange-700 SunMore '>
                   <Link className="underline-hover"  href="/about" >ABOUT    </Link>
                   <Link className="underline-hover"  href="/menu" >MENU     </Link>
-                  <Link  href="/" >
-                     <Image
-                        className="ml-4"
-                        src={imgLogo}
-                        width={172}
-                        height={50}
-                        alt="chivo boston"
-                     />
-                  </Link>
+                  <div className="w-[220px] h-full flex justify-center items-center">
+                     <Link href="/" className="w-[180px]">
+                        <Image
+                           src={imgLogo}
+                           width={170}
+                           alt="chivo boston"
+                        />
+                     </Link>
+                  </div>
                   <Link className="underline-hover"  href="/order" >ORDER    </Link>
                   <Link className="underline-hover"  href="/contact" >CONTACT  </Link>
                </div>

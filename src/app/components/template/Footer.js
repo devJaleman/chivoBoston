@@ -12,7 +12,7 @@ export default function Footer() {
 
             <div className="w-full sm:flex sm:justify-center  ">
                <div className="w-full sm:w-[200px] sm:min-w-[200px] md:w-[300px] md:min-w-[300px]  flex justify-center items-center h-32">
-                  <div>
+                  <div className="w-[300px] flex justify-center items-center">
                      <Image
                         src={imgLogo}
                         width={240}
@@ -37,24 +37,24 @@ export default function Footer() {
                <div className="w-full sm:w-[200px] sm:min-w-[200px] md:w-[260px] md:min-w-[260px] flex justify-center items-center h-32">
                   <div className="w-[300px] md:w-[260px] md:min-w-[260px] flex flex-row  ">
                      <div className="w-1/2 flex justify-center items-center" >
-                        <div>
+                        <a href="https://www.facebook.com/profile.php?id=100092233719093" target="_blank">
                            <Image
                               src={imgFacebook}
                               width={50}
                               height={50}
                               alt="chivo boston"
                            />
-                        </div>
+                        </a>
                      </div>
                      <div className="w-1/2 flex justify-center items-center" >
-                        <div>
+                        <a href="https://www.instagram.com/chivo.taqueria/" target="_blank">
                            <Image
                               src={imgInstagram}
                               width={50}
                               height={50}
                               alt="chivo boston"
                            />
-                        </div>
+                        </a>
                      </div>
                   </div>
                </div>
