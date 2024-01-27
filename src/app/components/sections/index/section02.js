@@ -6,8 +6,9 @@ import img01 from '../../../../../public/img/index/section02img01.webp';
 export default function Section02() {
 	let textTitle = "Welcome to chivo";
 	let textSubTitle1 = "WE ARE NOW OPEN";
-   let textSubTitle2 = "Monday through Sunday";
-   let textSubTitle3 = "8am to 11pm";
+   let textSubTitle2 = "Monday through Friday 10am to 10pm";
+   let textSubTitle3 = "Saturday & Sunday 8am to 11PM";
+    
   	return (
     	<div className="w-full  bg-orange-700 flex  flex-col md:flex-row">
 
@@ -37,7 +38,7 @@ export default function Section02() {
 
                <div className="w-full  flex flex-col justify-center items-center text-amber-50 ">
                   <div className=" w-full HoarseSolid text-6xl text-center mb-5">{textTitle}</div>
-                  <div className=" w-full text-2xl ">
+                  <div className=" w-full text-xl ">
                      <div className="flex justify-center items-cente flex-row text-center">¡<div className="RockGrotesk">{textSubTitle1}</div>!</div>
                      <div className="RockGrotesk text-center">{textSubTitle2}</div>
                      <div className="RockGrotesk text-center">{textSubTitle3}</div>

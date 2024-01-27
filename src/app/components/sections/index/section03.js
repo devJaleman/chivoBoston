@@ -11,8 +11,8 @@ export default function Section03() {
    let subTitle = "discover everything we have for you:";
    let text1 = "BURRITOS";
    let text2 = "TACOS";
-   let text3 = "EXTRAS";
-   let textBtn = "VIEW ALL";
+   let text3 = "PUPUSAS";
+   let textBtn = "VIEW ALL MENU";
 
   	return (
     	<div className="w-full  bg-amber-50 flex  flex-col  justify-center items-center">

@@ -31,9 +31,7 @@ export default function Section04() {
 
                <div className="HoarseSolid text-orange-700 text-6xl text-center">{title}</div>
                <div className="RockGrotesk text-slate-900 text-xl text-justify mt-10 max-w-[500px]">{subTitle}</div>
-               <div className="w-full flex justify-center items-center py-8">
-                  <BtnInt title={textBtn} url="/about" />
-               </div>
+               
 
             </div>
 
