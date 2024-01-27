@@ -37,17 +37,17 @@ export default function Section05() {
                <div className="w-full text-center HaydonBrush text-9xl text-orange-700">{title}</div>
                <div className="w-full text-center SunMore text-7xl text-orange-700 mt-5">{subTitle}</div>
                <div className="w-full mt-10">
-                  <div className="w-full text-center SunMore text-4xl text-slate-800 ">{text1}</div>
-                  <div className="w-full text-center  text-2xl text-slate-800" >{subText1}</div>
+                  <div className="w-full text-center SunMore text-4xl text-slate-900 ">{text1}</div>
+                  <div className="w-full text-center  text-2xl text-slate-900" >{subText1}</div>
                </div>
                <div className="w-full mt-10">
-                  <div className="w-full text-center SunMore text-4xl text-slate-800 ">{text2}</div>
-                  <div className="w-full text-center  text-2xl text-slate-800" >{subText2}</div>
+                  <div className="w-full text-center SunMore text-4xl text-slate-900 ">{text2}</div>
+                  <div className="w-full text-center  text-2xl text-slate-900" >{subText2}</div>
                </div>
                <div className="w-full my-10">
-                  <div className="w-full text-center SunMore text-4xl text-slate-800 ">{text3}</div>
-                  <div className="w-full text-center  text-2xl text-slate-800" >{subText3_1}</div>
-                  <div className="w-full text-center  text-2xl text-slate-800" >{subText3_2}</div>
+                  <div className="w-full text-center SunMore text-4xl text-slate-900 ">{text3}</div>
+                  <div className="w-full text-center  text-2xl text-slate-900" >{subText3_1}</div>
+                  <div className="w-full text-center  text-2xl text-slate-900" >{subText3_2}</div>
                </div>
             </div>
          </div>

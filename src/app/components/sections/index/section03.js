@@ -18,7 +18,7 @@ export default function Section03() {
     	<div className="w-full  bg-amber-50 flex  flex-col  justify-center items-center">
 
 
-			<div className="w-full flex flex-col items-center justify-center text-slate-800 mt-10 mb-10 md:mt-20 md:mb-16 ">
+			<div className="w-full flex flex-col items-center justify-center text-slate-900 mt-10 mb-10 md:mt-20 md:mb-16 ">
 
             <div className="w-full text-center HaydonBrush text-9xl text-orange-700">{title}</div>
             <div className="w-full text-center SunMore text-3xl font-bold">{subTitle}</div>

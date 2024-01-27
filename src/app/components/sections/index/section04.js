@@ -1,6 +1,7 @@
 'use client'
 import Image from 'next/image'
 import img01 from '../../../../../public/img/index/section04img01.webp';
+import BtnInt from '../../buttons/BtnInt.js';
 
 
 export default function Section04() {
@@ -29,13 +30,9 @@ export default function Section04() {
             <div className="w-full flex flex-col justify-center items-center px-6">
 
                <div className="HoarseSolid text-orange-700 text-6xl text-center">{title}</div>
-               <div className="RockGrotesk text-slate-800 text-xl text-justify mt-10 max-w-[500px]">{subTitle}</div>
+               <div className="RockGrotesk text-slate-900 text-xl text-justify mt-10 max-w-[500px]">{subTitle}</div>
                <div className="w-full flex justify-center items-center py-8">
-
-                  <a className="w-[240px] bg-slate-800 h-[60px] cursor-pointer text-white rounded-full RockGrotesk flex items-center justify-center text-xl tracking-[5px]"> 
-                     {textBtn} 
-                  </a>
-
+                  <BtnInt title={textBtn} url="/about" />
                </div>
 
             </div>
