@@ -42,7 +42,7 @@ export default function Section02() {
                      <div className="w-full min-h-[160px] text-slate-900  flex justify-center items-start text-center text-lg">
                         Eggs over easy or over medium
                         topped with Ranchera Sauce
-                        served with fried beans, farmer's
+                        served with fried beans, farmer&lsquo;s
                         cheese, sour cream, fried
                         plantains with fried tortillas.
                      </div>
@@ -54,11 +54,11 @@ export default function Section02() {
 
 
                   <div className="w-full my-8 max-w-[300px] flex flex-col justify-center md:justify-between items-center">
-                     <div className="w-[280px] SunMore text-center text-orange-700 text-3xl">Chivo's Breakfast</div>
+                     <div className="w-[280px] SunMore text-center text-orange-700 text-3xl">Chivo&lsquo;s Breakfast</div>
                      <div className="w-full min-h-[160px] text-slate-900  flex justify-center items-start text-center text-lg">
                         Salvadorian Style fried Eggs
                         served with fried beans,
-                        farmer's cheese, sour cream,
+                        farmer&lsquo;s cheese, sour cream,
                         fried plantains and tortillas.
                      </div>
                      <div className="w-full flex justify-center items-center text-center text-3xl  text-slate-900 HoarseSolid">
@@ -108,8 +108,8 @@ export default function Section02() {
                      <div className="w-[280px] SunMore text-center text-orange-700 text-3xl">Huevos con Chorizo</div>
                      <div className="w-full min-h-[160px] text-slate-900  flex justify-center items-start text-center text-lg">
                         Salvadorian Style fried Eggs
-                        served with Chivo's signature
-                        chorizo, fried beans, farmer's
+                        served with Chivo&lsquo;s signature
+                        chorizo, fried beans, farmer&lsquo;s
                         cheese, sour cream, fried
                         plantains and tortillas.
                      </div>
